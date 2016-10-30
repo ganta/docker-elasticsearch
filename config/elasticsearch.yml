@@ -3,3 +3,7 @@ network.host: 0.0.0.0
 # Enable CORS to connect to local elasticsearch
 http.cors.allow-origin: /https?:\/\/localhost(:[0-9]+)?/
 http.cors.enabled: true
+
+# Enabling dynamic scripting
+script.inline: true
+script.stored: true
