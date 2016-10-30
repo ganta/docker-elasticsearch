@@ -1,0 +1,5 @@
+network.host: 0.0.0.0
+
+# Enable CORS to connect to local elasticsearch
+http.cors.allow-origin: "*"
+http.cors.enabled: true
