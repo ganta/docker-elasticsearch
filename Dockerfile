@@ -1,4 +1,4 @@
-FROM elasticsearch:5.0.0
+FROM elasticsearch:5.1.1-alpine
 MAINTAINER Hideki Igarashi <hideki.develop@gmail.com>
 
 RUN elasticsearch-plugin install analysis-kuromoji && \
