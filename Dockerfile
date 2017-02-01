@@ -1,4 +1,4 @@
-FROM elasticsearch:5.1.1-alpine
+FROM elasticsearch:5.2.0-alpine
 
 RUN elasticsearch-plugin install analysis-kuromoji && \
     elasticsearch-plugin install analysis-icu
